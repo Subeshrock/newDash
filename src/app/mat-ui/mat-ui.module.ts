@@ -5,6 +5,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [],
@@ -15,6 +16,7 @@ import { MatTableModule } from '@angular/material/table';
     MatSelectModule,
     MatSliderModule,
     MatTableModule,
+    MatCardModule,
   ],
 })
 export class MatUIModule {}

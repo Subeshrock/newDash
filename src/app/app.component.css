@@ -1,0 +1,28 @@
+.item:before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: -6px;
+  width: 32px;
+  height: 32px;
+  background: #021434;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: -6px;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 0, 1);
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(255, 255, 0, 1);
+  opacity: 0;
+}
+
+.item:hover:after {
+  animation: animate 0.5s linear infinite;
+}
