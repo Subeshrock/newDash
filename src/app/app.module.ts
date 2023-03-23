@@ -12,6 +12,7 @@ import { BoqTableComponent } from './boq/boq-table/boq-table.component';
 import { LicIntelComponent } from './lic-intel/lic-intel.component';
 import { LicIntelTableComponent } from './lic-intel/lic-intel-table/lic-intel-table.component';
 import { LicIntelChartComponent } from './lic-intel/lic-intel-chart/lic-intel-chart.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { LicIntelChartComponent } from './lic-intel/lic-intel-chart/lic-intel-ch
     BrowserAnimationsModule,
     MatUIModule,
     HighchartsChartModule,
+    NgApexchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
