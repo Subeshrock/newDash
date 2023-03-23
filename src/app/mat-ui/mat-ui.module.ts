@@ -6,6 +6,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [],
@@ -17,6 +20,9 @@ import { MatCardModule } from '@angular/material/card';
     MatSliderModule,
     MatTableModule,
     MatCardModule,
+    MatExpansionModule,
+    MatRadioModule,
+    MatCheckboxModule,
   ],
 })
 export class MatUIModule {}

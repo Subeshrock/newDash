@@ -1,0 +1,20 @@
+<div class="row pt-3">
+  <div class="col-md-3" *ngFor="let process of processes">
+    <div (click)="onProcess()" class="card text-center">
+      <div class="card-body">
+        <h2 class="text-{{ process.color }}">{{ process.title }}</h2>
+        <p>$123,456</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-4 p-3">
+  <div class="col" *ngFor="let module of modules">
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="text-{{ module.color }}">{{ module.title }}</h2>
+        <p>$123,456</p>
+      </div>
+    </div>
+  </div>
+</div>

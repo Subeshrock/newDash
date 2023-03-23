@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import * as Highcharts from 'highcharts';
-
 @Component({
   selector: 'app-lic-intel-chart',
   templateUrl: './lic-intel-chart.component.html',

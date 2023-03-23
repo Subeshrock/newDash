@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SelectionModel } from '@angular/cdk/collections';
 
 export interface InteLicen {
   users: string;
